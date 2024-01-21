@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=JosefinSans&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=pacific&family=Rock+Salt&display=swap');
 
 .primary-color{
 
@@ -19,13 +19,13 @@
     --accent1-color: #99E1D9
     --accent2-color: #70ABAF 
 
-    --heading-font: 'Josefin Sans', serif;
-    --paragraph-font: 'Dancing Script', serif;
+    --heading-font: 'pacific', serif;
+    --paragraph-font: 'satisfy', serif;
     
-    --nav-background-color: #
-    --nav-link-color: #
-    --nav-hover-link-color: #
-    --nav-hover-background-color: #
+    --nav-background-color: ##AD58E3
+    --nav-link-color: #7F4ED4
+    --nav-hover-link-color: #AF8AEF
+    --nav-hover-background-color: #AD58E3
 }
 body {
   font-family: var(--paragraph-font);
@@ -61,5 +61,3 @@ nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
-
-
