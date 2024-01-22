@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=pacific&family=Rock+Salt&display=swap');
 
 :root {
-    --primary-color: #99E1D9;
+    --primary-color: #191061;
     --secondary-color: #F0F7F4;
     --accent1-color: #99E1D9;
     --accent2-color: #70ABAF; 
@@ -9,42 +9,34 @@
     --heading-font: 'pacific', serif;
     --paragraph-font: 'satisfy', serif;
     
-    --nav-background-color: #AD58E3;
+    --nav-background-color: #481865;
     --nav-link-color: #7F4ED4;
     --nav-hover-link-color: #AF8AEF;
-    --nav-hover-background-color: #AD58E3;
+    --nav-hover-background-color: #2a0687;
 }
+nav ul{
+    float: right;
+    margin-right: 20px
+  }
+  nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px
+  }
+  nav ul li a{
+    color: #0e5936;
+    font-size: 18px;
+    padding: 7px 13;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  a.active, a:hover{
+    background: #33085c;
+    transition: .5s;
 body {
   font-family: var(--paragraph-font);
   max-width: 960 pixels;
   padding: 20 pixels;
 }
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-}
-header {
-  padding: 20px; 
-  background-color: var(accent1-color);
-}
-p {
-  padding: 25px; 
-}
-nav {
-  background-color: var(--nav-background-color);  
-  font-size: 1.2rem;
-  display: flex;
-}
-nav a {
-    display: block;
-    color: var(--nav-link-color);
-    text-decoration: none;
-    padding: 1rem;
-}
-nav  a:link, nav a:visited {
-    color: var(--nav-link-color);
-}
-nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
+
 }
