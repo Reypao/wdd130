@@ -14,18 +14,18 @@
     color: #70ABAF;
 }
 :root {
-    --primary-color: #99E1D9
-    --secondary-color: #F0F7F4
-    --accent1-color: #99E1D9
-    --accent2-color: #70ABAF 
+    --primary-color: #99E1D9;
+    --secondary-color: #F0F7F4;
+    --accent1-color: #99E1D9;
+    --accent2-color: #70ABAF; 
 
     --heading-font: 'pacific', serif;
     --paragraph-font: 'satisfy', serif;
     
-    --nav-background-color: ##AD58E3
-    --nav-link-color: #7F4ED4
-    --nav-hover-link-color: #AF8AEF
-    --nav-hover-background-color: #AD58E3
+    --nav-background-color: #AD58E3;
+    --nav-link-color: #7F4ED4;
+    --nav-hover-link-color: #AF8AEF;
+    --nav-hover-background-color: #AD58E3;
 }
 body {
   font-family: var(--paragraph-font);
