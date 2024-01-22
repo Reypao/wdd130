@@ -1,18 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=pacific&family=Rock+Salt&display=swap');
 
-.primary-color{
-
-    color: #99E1D9;
-}
-.secondary-color{
-    color: #F0F7F4;
-}
-.accent1-color{
-    color: #99E1D9;
-}
-.accent2-color{
-    color: #70ABAF;
-}
 :root {
     --primary-color: #99E1D9;
     --secondary-color: #F0F7F4;
