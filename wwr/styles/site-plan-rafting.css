@@ -1,5 +1,4 @@
-element.style {
-}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--headline-color-on-white);
@@ -22,7 +21,7 @@ body {
     text-align: center;
 }
 :root {
-    --primary-color: #2d4a73;
+    --primary-color: #12305a;
     --secondary-color: #6ac6e2;
     --accent1-color: #8ccb84;
     --accent2-color: #dbcca5;
