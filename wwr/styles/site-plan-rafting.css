@@ -1,42 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=pacific&family=Rock+Salt&display=swap');
-
-:root {
-    --primary-color: #191061;
-    --secondary-color: #F0F7F4;
-    --accent1-color: #99E1D9;
-    --accent2-color: #70ABAF; 
-
-    --heading-font: 'pacific', serif;
-    --paragraph-font: 'satisfy', serif;
-    
-    --nav-background-color: #481865;
-    --nav-link-color: #7F4ED4;
-    --nav-hover-link-color: #AF8AEF;
-    --nav-hover-background-color: #2a0687;
+element.style {
 }
-nav ul{
-    float: right;
-    margin-right: 20px
-  }
-  nav ul li {
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px
-  }
-  nav ul li a{
-    color: #0e5936;
-    font-size: 18px;
-    padding: 7px 13;
-    border-radius: 3px;
-    text-transform: uppercase;
-  }
-  a.active, a:hover{
-    background: #33085c;
-    transition: .5s;
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+}
+user agent stylesheet
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
 body {
-  font-family: var(--paragraph-font);
-  max-width: 960 pixels;
-  padding: 20 pixels;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: center;
 }
-
+:root {
+    --primary-color: #2d4a73;
+    --secondary-color: #6ac6e2;
+    --accent1-color: #8ccb84;
+    --accent2-color: #dbcca5;
+    --heading-font: 'Raleway', sans-serif;
+    --paragraph-font: 'Montserrat', sans-serif;
+    --headline-color-on-white: #2d4a73;
+    --headline-color-on-color: white;
+    --paragraph-color-on-white: #2d4a73;
+    --paragraph-color-on-color: white;
+    --paragraph-background-color: #2d4a73;
+    --nav-link-color: #000000;
+    --nav-background-color: #6ac6e2;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #2d4a73;
 }
