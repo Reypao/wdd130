@@ -5,7 +5,8 @@
 }
 /* Class Selector */
 
-nav {background-color: steelblue;
+nav {
+background-color: steelblue;
 padding: 10px;
 }
 nav a {
@@ -15,6 +16,9 @@ nav a {
 }
 h1 {
   color: steelblue;
+}
+main p {
+height: 200px;
 }
 main img {
   width: 150px;
@@ -27,26 +31,29 @@ main img {
 p {
   padding: 0;
 }
-
-/*aside {
+aside {
   width: 20em;
   margin: 1em;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2); /* 1️⃣ */
   padding: 1rem;
   background-color: #eee;
+  color: antiquewhite;
   text-align: center;
-}*/
-aside {
   position: relative;
-  width: 20em;
-  text-align: center;
-  /*margin : auto; */
-
+}
+aside img {
+  width: 200px;
+  height: auto;
 }
 aside h2 {
   position: absolute;
-  top: 47px;
-  left: 150px;
+  top: 54px;
+  left: 130px;
+}
+footer {
+  margin-top: 1em;
+  border-top: 1px solid #000;
+  text-align: center;
 }
 .box {
   margin: 1rem;
@@ -55,14 +62,7 @@ aside h2 {
   background-color: #ddd;
   color: #000;
 }
-aside img {
-  width: 200px;
-  height: auto;
-}
-footer {
-  margin-top: 1em;
-  border-top: 1px solid #000;
-  text-align: center;
-}
+
+
 
 
