@@ -35,6 +35,12 @@ p {
   background-color: #eee;
   text-align: center;
 }*/
+aside {
+  width: 20em;
+  text-align: center;
+  margin : auto;
+  
+}
 .box {
   margin: 1rem;
   border: 1px solid rgba(0, 0, 0, .1);
