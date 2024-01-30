@@ -1,3 +1,9 @@
+* {
+  margin : 0;
+  padding : 0;
+  box-sizing: border-box;
+}
+/* Class Selector */
 
 nav {background-color: steelblue;
 padding: 10px;
@@ -21,13 +27,20 @@ p {
   padding: 0;
 }
 
-aside {
+/*aside {
   width: 20em;
   margin: 1em;
-  border: 1px solid rgba(0, 0, 0, 0.2);/* 1️⃣ */
+  border: 1px solid rgba(0, 0, 0, 0.2);
   padding: 1rem;
   background-color: #eee;
   text-align: center;
+}*/
+.box {
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, .1);
+  padding: 1rem;
+  background-color: #ddd;
+  color: #000;
 }
 aside imag {
   width: 200px;
