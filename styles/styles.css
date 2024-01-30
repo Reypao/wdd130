@@ -16,12 +16,13 @@ nav a {
 h1 {
   color: steelblue;
 }
-main image {
+main img {
   width: 150px;
   height: auto;
   border: 1px solid steelblue;
   padding: 2px;
   box-shadow: 0 0 30px gray;
+  float: right;
 }
 p {
   padding: 0;
@@ -36,10 +37,16 @@ p {
   text-align: center;
 }*/
 aside {
+  position: relative;
   width: 20em;
   text-align: center;
-  margin : auto;
-  
+  /*margin : auto; */
+
+}
+aside h2 {
+  position: absolute;
+  top: 47px;
+  left: 150px;
 }
 .box {
   margin: 1rem;
