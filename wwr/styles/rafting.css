@@ -1,2 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family')
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+:root {
+    --color-primary: #ff0000;
+    --color-secondary: #00ff00;
+    --color-tertiary: #0000ff;
+  }
+  body {
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+  }
