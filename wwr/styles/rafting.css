@@ -3,11 +3,45 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 :root {
-    --color-primary: #ff0000;
-    --color-secondary: #00ff00;
-    --color-tertiary: #0000ff;
+    --color-primary: #a19448;
+    --color-secondary: #d21b21;
+    --color-third: #704f36;
   }
   body {
     background-color: var(--color-primary);
     color: var(--color-secondary);
   }
+  .hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .socialicon {
+    width: 20px;
+  }
+  p{
+    font-size: 16px;
+    color: rgb(218, 209, 205);
+  }
+  a {
+    text-decoration: none;
+
+  }
+  .picture {
+    width: 100%;
+  }
+  .hero {
+    position: relative;
+    width: 100%;
+  }
+  .hero h1 {
+    position: absolute;
+    top: 0;
+  }
+.hero article {
+opacity: 0.8;
+}
+.logo {
+  width: 150px;
+}
+
