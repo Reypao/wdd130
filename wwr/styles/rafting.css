@@ -3,13 +3,13 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 :root {
-  --primary-color: #12305a;
-  --secondary-color: #6ac6e2;
-  --accent1-color: #8ccb84;
+  --primary-color: #afbcce;
+  --secondary-color: #88d1e7;
+  --accent1-color: #172f13;
   --accent2-color: #dbcca5;
   --heading-font: 'Raleway', sans-serif;
   --paragraph-font: 'Montserrat', sans-serif;
-  --headline-color-on-white: #2d4a73;
+  --headline-color-on-white: #a1b3cd;
   --headline-color-on-color: white;
   --paragraph-color-on-white: #2d4a73;
   --paragraph-color-on-color: white;
@@ -17,7 +17,7 @@ body {
   --nav-link-color: #000000;
   --nav-background-color: #6ac6e2;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #2d4a73;
+  --nav-hover-background-color: #2d4f7e;
 }
 body {
   max-width: 960px;
@@ -43,7 +43,7 @@ header {
     display: grid;
     grid-template-columns: 120px 1fr 2fr;
     align-items: center;
-    border-bottom: 1px solid #52a6e7;
+    border-bottom: 1px solid #376f9c;
     max-width: 1000px;
     justify-content: space-evenly;
 }
@@ -111,8 +111,8 @@ figure {
 }
 
 figcaption {
-  background-color: #2f0e5e;
-  color: #fff;
+  background-color: #53298d;
+  color: #afc19f;
   font: italic smaller sans-serif;
   padding: 3px;
   text-align: center;
@@ -125,7 +125,7 @@ form {
   padding: 1rem;
   border: 1px solid rgba(45, 8, 8, 0.1);
   border-radius: 0.5rem;
-  background-color: #9687d2;
+  background-color: #e9e7ee;
   display: grid;
 }
 
@@ -146,7 +146,7 @@ input, select, textarea {
 
 button {
   margin: 1rem;
-  background-color: rgb(83, 72, 210);
+  background-color: rgb(38, 18, 117);
   color: #fff;
   border: none;
   border-radius: 0.5rem;
@@ -155,11 +155,19 @@ button {
 }
 
 button:hover {
-  background-color: rgb(220, 21, 21);
+  background-color: rgb(24, 148, 53);
 }
 
 .form-item {
   display: grid;
   align-items: center;
   margin: 1rem 0 1rem 0;
+}
+#trips {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.trip img {
+  max-width: 300px;
 }
